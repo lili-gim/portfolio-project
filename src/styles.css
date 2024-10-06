@@ -1,25 +1,61 @@
-body {
-  background-color: rgba(249, 247, 254, 1);
-\
+:root {
+  --primary-font-color: #272142;
+  --primary-background-color: rgba(249, 247, 254, 1);
+  --primary-font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
+.intro h1 {
+  font-family: var(--primary-font-family);
   font-weight: 700;
+  font-size: 90px;
 }
 
-h2,
-h3 {
-  font-family: "Poppins", sans-serif;
+.intro h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--primary-font-color);
 }
 
-h1,
+.intro h3 {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-font-color);
+}
+
+.intro h2,
+h3,
+h4 {
+  font-family: var(--secondary-font-family);
+}
+
+.intro h1,
 h2,
 h3,
 h4 {
   text-align: center;
+  padding: 5px 0;
+}
+
+.intro h4 {
+  border-radius: 4px;
+  background: rgba(108, 99, 255, 1);
+  padding: 20px 25px;
+  margin: auto;
+  max-width: 200px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.contact-me {
+  padding: 35px 0;
 }
 
 .intro {
-  margin: 120px 50px;
+  padding: 170px 20px;
+  width: 100%;
+  background-color: var(--primary-background-color);
 }
