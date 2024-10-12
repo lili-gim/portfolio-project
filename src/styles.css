@@ -3,6 +3,7 @@
   --primary-background-color: rgba(249, 247, 254, 1);
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
+  --secondary-color:border: 1px solid rgba(108, 99, 255, 1)
 }
 
 .intro h1 {
@@ -58,4 +59,32 @@ h4 {
   padding: 170px 20px;
   width: 100%;
   background-color: var(--primary-background-color);
+}
+
+.container h2 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85.31px;
+}
+
+.container p {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.projects-lead-in p {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.button {
+  border-radius: 4px;
+  border-color: var(--secondary-color);
+
 }
