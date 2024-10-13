@@ -3,7 +3,7 @@
   --primary-background-color: rgba(249, 247, 254, 1);
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
-  --secondary-color:border: 1px solid rgba(108, 99, 255, 1)
+  --secondary-color: rgba(108, 99, 255, 1);
 }
 
 .intro h1 {
@@ -83,8 +83,16 @@ h4 {
   font-weight: 400;
 }
 
-.button {
+.project-link {
   border-radius: 4px;
-  border-color: var(--secondary-color);
-
+  border: 1px solid var(--secondary-color);
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 18px 30px;
 }
