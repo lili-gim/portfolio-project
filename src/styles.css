@@ -66,6 +66,7 @@ h4 {
   font-size: 64px;
   font-weight: 700;
   line-height: 85.31px;
+  text-align: left;
 }
 
 .container p {
@@ -73,6 +74,7 @@ h4 {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  text-align: left;
 }
 
 .projects-lead-in p {
@@ -95,4 +97,18 @@ h4 {
   text-decoration: none;
   color: var(--secondary-color);
   padding: 18px 30px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+  }
+
+  .project-description h2 {
+    text-align: center;
+  }
+
+  .project-description p {
+    text-align: center;
+  }
 }
