@@ -10,6 +10,7 @@
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 90px;
+  line-height: 1.5;
 }
 
 .intro h2 {
@@ -100,6 +101,13 @@ h4 {
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .container h2 {
+    font-size: 44px;
+  }
   .project-description {
     padding: 0;
   }
@@ -109,6 +117,14 @@ h4 {
   }
 
   .project-description p {
+    text-align: center;
+  }
+
+  .project-link {
+    text-align: center;
+  }
+
+  .button {
     text-align: center;
   }
 }
