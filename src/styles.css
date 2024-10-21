@@ -42,7 +42,7 @@ h4 {
 
 .intro h4 {
   border-radius: 4px;
-  background: rgba(108, 99, 255, 1);
+  background: var(--secondary-color);
   padding: 20px 25px;
   margin: auto;
   max-width: 200px;
@@ -127,4 +127,32 @@ h4 {
   .button {
     text-align: center;
   }
+}
+
+.about-me-section h1 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85.31px;
+  text-align: left;
+}
+
+.about-me-section h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  background: var(--secondary-color);
+  padding: 18px 30px;
+
+  max-width: 200px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+  font-weight: 500;
 }
