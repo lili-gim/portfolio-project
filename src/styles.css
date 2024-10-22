@@ -145,14 +145,19 @@ h4 {
   text-align: left;
 }
 
-.btn-branding {
+.button-purple {
   border-radius: 4px;
   background: var(--secondary-color);
   padding: 18px 30px;
-
   max-width: 200px;
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
   line-height: 27px;
   font-weight: 500;
+}
+
+.coding-woman {
+  border-radius: 20px;
+  width: 560px;
+  height: 560px;
 }
