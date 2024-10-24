@@ -100,6 +100,45 @@ h4 {
   padding: 18px 30px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+.about-me-section {
+  margin: 30px;
+}
+
+.about-me-section h1 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85.31px;
+}
+
+.about-me-section h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.button-purple {
+  border-radius: 4px;
+  background: var(--secondary-color);
+  padding: 18px 30px;
+  max-width: 200px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.coding-woman {
+  border-radius: 20px;
+  width: 560px;
+  height: 560px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
@@ -127,37 +166,21 @@ h4 {
   .button {
     text-align: center;
   }
-}
 
-.about-me-section h1 {
-  font-family: var(--primary-font-family);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 85.31px;
-  text-align: left;
-}
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 
-.about-me-section h3 {
-  font-family: var(--secondary-font-family);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: left;
-}
+  .button-purple {
+    margin-top: 10px;
+  }
 
-.button-purple {
-  border-radius: 4px;
-  background: var(--secondary-color);
-  padding: 18px 30px;
-  max-width: 200px;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 1);
-  line-height: 27px;
-  font-weight: 500;
-}
+  .about-me-section p {
+    text-align: center;
+  }
 
-.coding-woman {
-  border-radius: 20px;
-  width: 560px;
-  height: 560px;
+  .about-me-section h3 {
+    text-align: center;
+  }
 }
