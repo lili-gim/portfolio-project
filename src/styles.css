@@ -100,21 +100,21 @@ h4 {
   padding: 18px 30px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-me-section {
+.content {
   margin: 30px;
 }
 
-.about-me-section h1 {
+.content h1 {
   font-family: var(--primary-font-family);
   font-size: 64px;
   font-weight: 700;
   line-height: 85.31px;
 }
 
-.about-me-section h3 {
+.content h2 {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   font-weight: 700;
@@ -122,7 +122,7 @@ h4 {
   text-align: left;
 }
 
-.about-me-section p {
+.content p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -146,12 +146,16 @@ h4 {
   height: 560px;
 }
 
+.content h3 {
+  font-weight: 700;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
   }
 
-  .container h2 {
+  .intro-container h2 {
     font-size: 44px;
   }
   .project-description {
@@ -174,16 +178,16 @@ h4 {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 
-  .about-me-section p {
+  .content p {
     text-align: center;
   }
 
-  .about-me-section h3 {
+  .content h2 {
     text-align: center;
   }
 }
