@@ -183,6 +183,9 @@ h4 {
     padding: 0;
   }
 
+  .content {
+    text-align: center;
+  }
   .content p {
     text-align: center;
   }
