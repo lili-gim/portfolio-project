@@ -152,6 +152,42 @@ h4 {
   line-height: 1.5;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+.logo {
+  max-height: 40px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 15px;
+  display: inline;
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  list-style: none;
+  font-weight: 500;
+  line-height: 42px;
+}
+.active {
+  color: var(--primary-font-color);
+}
+
+li a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+li a:hover,
+li.active a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
