@@ -188,6 +188,70 @@ li.active a {
   color: var(--secondary-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: var(--primary-background-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  transition: all 100 ease-in-out;
+}
+
+footer .contact-box {
+  background-color: var(--primary-background-color);
+  padding: 30px 120px;
+  border-radius: 20px;
+}
+
+footer .contact-box h5 {
+  font-family: var(--primary-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.98px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .btn-contact {
+  border-radius: 4px;
+  background: var(--secondary-color);
+  padding: 18px 38px;
+  margin: auto;
+  max-width: 200px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer .btn-contact:hover {
+  color: black;
+  transition: all 100 ease-in-out;
+  background: var(--secondary-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
